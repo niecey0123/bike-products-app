@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = /Users/niecey/Desktop/Top_View_challenge/rails_products_api/
