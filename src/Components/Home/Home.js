@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 
 const Home = props =>{
     return(
-    <div className="homepage-container container" > 
-    <div className="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
+    <div className="homepage-container " > 
+    <div className="column ">
     <img className="landing" src={bike} alt="Bike Rider" />
     <div className="text-block">
     <p className="quote">What you seek is seeking you!</p>
