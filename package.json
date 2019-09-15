@@ -1,9 +1,13 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "private": true,
   "proxy": "https://bike-products-api.herokuapp.com",
   "dependencies": {
+    "axios": "^0.19.0",
     "bulma": "^0.7.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
