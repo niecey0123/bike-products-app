@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4567",
+  "proxy": "https://vast-woodland-45800.herokuapp.com",
   "dependencies": {
     "bulma": "^0.7.5",
     "react": "^16.9.0",
