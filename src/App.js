@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   getProductData = async () => {
-    const products = await axios.get('https://vast-woodland-45800.herokuapp.com/products');
+    const products = await axios.get('http://localhost:4567/products');
     const apiData = products.data;
     // console.log(apiData)
     this.setState({
