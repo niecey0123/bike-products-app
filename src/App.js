@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   getProductData = async () => {
-    const products = await axios.get('https://products-app-api.herokuapp.com');
+    const products = await axios.get('https://bike-products-app-api.herokuapp.com');
     const apiData = products.data;
     // console.log(apiData)
     this.setState({
