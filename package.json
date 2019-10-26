@@ -2,7 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "engines": {
-    "node": "10.3.0"
+    "node": "10.3.0",
+    "npm": "6.x"
   },
   "private": true,
   "proxy": "https://bike-products-api.herokuapp.com",
@@ -12,8 +13,10 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
+    "react-responsive": "^8.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "semantic-ui-react": "^0.88.1"
   },
   "scripts": {
     "start": "react-scripts start",

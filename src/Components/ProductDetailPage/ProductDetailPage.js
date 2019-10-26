@@ -8,7 +8,7 @@ const ProductDetailPage = ({currentProduct})=>{
     console.log(currentProduct)
     return(
 
-      <section className="section">
+      
           <div className="container">
                 <h1 className="title">{currentProduct.name}</h1>
                  <img className="detailImg" src={currentProduct.image} alt="product-name"/> 
@@ -16,7 +16,7 @@ const ProductDetailPage = ({currentProduct})=>{
               <br></br>
            <Link to="/products" className="arrow"><h3><FaAngleLeft /> Back </h3> </Link>
          </div>
-     </section>
+ 
  
         
     )

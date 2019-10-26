@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   getProductData = async () => {
-    const products = await axios.get('http://localhost:4567/products');
+    const products = await axios.get('https://products-app-api.herokuapp.com');
     const apiData = products.data;
     // console.log(apiData)
     this.setState({
@@ -40,7 +40,7 @@ class App extends Component {
 
 
   render() {
-    const products = this.state.apiData
+    const products = this.state.apiData;
 
     return (
       <div className="App">

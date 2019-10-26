@@ -13,7 +13,7 @@ const Products = (props) =>{
 
     return(
         <div className="product-list-container" >
-        <h1>Welcome to the Products Page</h1>
+        <h1>Browse Our Rental Options</h1>
         <div className="product-list" >
         {productData}
         
