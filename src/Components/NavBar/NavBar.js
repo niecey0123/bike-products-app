@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link} from 'react-router-dom'
 import logo from '../../images/logo.png'
-import { FaBars } from "react-icons/fa";
 
 
 
@@ -20,11 +19,7 @@ const NavBar = props => {
           <li className="navbar-item"><Link to="/products">Rentals</Link></li>
          </div>
     </div>
-    {/* <div className="navbar-end toggle">
-        <div className="navbar-item bars">
-          <FaBars />
-        </div>
-      </div> */}
+  
   </nav>
     )
 }
