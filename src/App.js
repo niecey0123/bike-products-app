@@ -8,6 +8,7 @@ import Products from './Components/Products/Products'
 import ProductDetailsPage from'./Components/ProductDetailPage/ProductDetailPage'
 
 
+const API_KEY = `${process.env.REACT_APP_API_KEY}`
 class App extends Component {
   constructor() {
     super();
@@ -19,7 +20,7 @@ class App extends Component {
   }
 
   getProductData = async () => {
-    const products = await axios.get('https://bike-products-app-api.herokuapp.com/products');
+    const products = await axios.get(API_KEY);
     const apiData = products.data;
     // console.log(apiData)
     this.setState({

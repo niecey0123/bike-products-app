@@ -6,10 +6,11 @@
     "npm": "6.x"
   },
   "private": true,
-  "proxy": "https://bike-products-app-api.herokuapp.com",
+  "proxy": "http://localhost:4567",
   "dependencies": {
     "axios": "^0.19.0",
     "bulma": "^0.7.5",
+    "dotenv": "^8.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
